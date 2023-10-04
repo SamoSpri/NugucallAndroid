@@ -205,16 +205,14 @@ public class ContentsActivity extends AppCompatActivity {
 
         try {
             if (android.os.Build.VERSION.SDK_INT >= 26) {
-                userIMEI = sharedPreferencesIMEI.getString("imei","");
-                if(userIMEI.equals("")) {
-                    userIMEI = UUID.randomUUID().toString();
-                    SharedPreferences.Editor editor = sharedPreferencesIMEI.edit();
-                    editor.putString("imei", userIMEI);
-                    editor.apply();
-                }
+                userIMEI = UUID.randomUUID().toString();
+                SharedPreferences.Editor editor = sharedPreferencesIMEI.edit();
+                editor.putString("imei", userIMEI);
+                editor.apply();
             } else {
                 userIMEI = tm.getDeviceId();
             }
+
             // 번호를 받아와 +82를 0으로 바꿔주기
             //TextUtils.isEmpty(string) : Returns true if the string is null or 0-length.
             if (TextUtils.isEmpty(tm.getLine1Number())) {
