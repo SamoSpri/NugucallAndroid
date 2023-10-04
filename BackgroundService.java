@@ -81,7 +81,7 @@ public class BackgroundService extends Service {
     private String contentsText;
     private String contentsSource;
     private String contentsSize;
-
+   
     // 서비스가 처음 시작될 때 실행
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
@@ -225,7 +225,7 @@ public class BackgroundService extends Service {
                     tv_name.setVisibility(View.GONE);
                     tv_phone.setVisibility(View.GONE);
                     tv_text.setVisibility(View.GONE);
-                }
+                    }
             });
 
             // 지나가는 애니메이션을 위해 필요
