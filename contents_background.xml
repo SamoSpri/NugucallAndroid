@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#fafafa" />
+    <stroke
+        android:width="2dp"
+        android:color="#666666" />
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+    <corners android:radius="4dp" />
+</shape>
+
+<!-- service_background.xml에서 LinearLayout에서 배경 꾸미기 android:background="@drawable/contents_background" -->
