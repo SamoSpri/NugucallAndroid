@@ -78,7 +78,7 @@ public class SplashActivity extends AppCompatActivity {
         if (permissionCheck == PackageManager.PERMISSION_GRANTED) {
             checkOverlayPermission();
         } else {
-            ActivityCompat.requestPermissions(SplashActivity.this, new String[]{Manifest.permission.CAMERA},Global.REQ_CODE_PERMISSION_CAMERA);
+            ActivityCompat.requestPermissions(SplashActivity.this, new String[]{Manifest.permission.CAMERA}, Global.REQ_CODE_PERMISSION_CAMERA);
         }
     }
 
