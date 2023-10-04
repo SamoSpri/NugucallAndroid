@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ultra_blue">#1428a0</color>
+    <color name="ultra_blue_dark">#0a1478</color>
+    <color name="tangerine_tango">#e2492f</color>
+
+    <color name="white">#FAFAFA</color>
+    <color name="white_dark">#EAEAEA</color>
+    <color name="black">#666666</color>
+    <color name="gray">#AAAAAA</color>
+
+</resources>
